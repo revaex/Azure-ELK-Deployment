@@ -106,7 +106,7 @@ SSH into the control node and follow the steps below:
 
 ---
 
-# To run the playbooks you must do the following:
+**To run the playbooks you must do the following:**
 1. SSH into your jumpbox: `ssh <admin-name>@<jump-box-IP>`
 2. Start your Ansible Docker container: `sudo docker start <container>`
 3. Attach your standard input, output and error streams to container: `sudo docker attach <container>`
